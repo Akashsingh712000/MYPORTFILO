@@ -55,10 +55,13 @@ const Projects = () => {
             <span className="date-badge bg-blue brutal-border">AWS</span>
             <span className="date-badge bg-green brutal-border">Auth</span>
           </div>
-          <ul style={{ paddingLeft: '1.2rem', lineHeight: '1.6' }}>
+          <ul style={{ paddingLeft: '1.2rem', lineHeight: '1.6', marginBottom: '1rem' }}>
             <li>Built a highly secure, OTP-based authentication flow and a robust full-stack sign-up system for institutional and individual applicants.</li>
             <li>Engineered optimized database connections targeting both cloud and local environments to ensure reliable lead storage and seamless data persistence.</li>
           </ul>
+          <a href="https://vitto-front-5cap1j57a-akashsingh712000-9428s-projects.vercel.app/" target="_blank" rel="noreferrer" className="brutal-btn bg-yellow" style={{ fontSize: '0.9rem', padding: '0.4rem 0.8rem', display: 'inline-flex', alignItems: 'center', gap: '0.5rem' }}>
+            Live Demo <i className="fa-solid fa-arrow-up-right-from-square"></i>
+          </a>
         </div>
 
       </div>
