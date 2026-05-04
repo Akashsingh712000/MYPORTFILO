@@ -8,7 +8,7 @@ const Projects = () => {
         
         <div className="brutal-box" style={{ marginBottom: 0 }}>
           <h3 style={{ fontSize: '1.4rem', marginBottom: '0.5rem' }}>AI Trip Planner</h3>
-          <div style={{ marginBottom: '1rem', display: 'flex', gap: '0.5rem' }}>
+          <div style={{ marginBottom: '1rem', display: 'flex', gap: '0.5rem', flexWrap: 'wrap' }}>
             <span className="date-badge bg-blue brutal-border">React.js</span>
             <span className="date-badge bg-yellow brutal-border">TailwindCSS</span>
             <span className="date-badge bg-green brutal-border">Gemini API</span>
@@ -21,7 +21,7 @@ const Projects = () => {
 
         <div className="brutal-box" style={{ marginBottom: 0 }}>
           <h3 style={{ fontSize: '1.4rem', marginBottom: '0.5rem' }}>Lazarev-Inspired Website</h3>
-          <div style={{ marginBottom: '1rem', display: 'flex', gap: '0.5rem' }}>
+          <div style={{ marginBottom: '1rem', display: 'flex', gap: '0.5rem', flexWrap: 'wrap' }}>
             <span className="date-badge bg-blue brutal-border">MongoDB</span>
             <span className="date-badge bg-pink brutal-border">Express</span>
             <span className="date-badge bg-yellow brutal-border">React</span>
